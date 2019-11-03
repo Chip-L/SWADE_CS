@@ -1,0 +1,70 @@
+Modifier_ID,Modifer Name (orig),Description,Modifier Name,Cost,Take Multiple
+1,Additional Recipients (+1),The power may affect more than one item for 1 additional Power Point each.,Additional Recipients,1,TRUE
+2,Additional Recipients (+1),The power may affect more than one target for 1 additional Power Point each.,Additional Recipients,1,TRUE
+3,Additional Recipients (+1),The power may affect more than one viewer for 1 additional Power Point each.,Additional Recipients,1,TRUE
+4,Additional Recipients (+2),The power may affect more than one target for 2 additional Power Points each.,Additional Recipients,2,TRUE
+5,Additional Recipients (+3),The power may affect more than one target for 3 additional Power Points each.,Additional Recipients,3,TRUE
+6,Additional Zombies (+1),A larger horde can be raised in a single casting by paying an additional 1 Power Point for each extra zombie<i></i> raised.,Additional Zombies,1,TRUE
+7,Area Effect (+0),"The caster can focus the <i>blast</i> to a Small Blast Template for no extra cost.",Area Effect,0,FALSE
+8,Area Effect (+1),<i>Havoc</i> affects a Large Blast Template.,Area Effect,1,FALSE
+9,Area Effect (+1),The caster can focus the <i>blast</i> to a Large Blast Template for +1.,Area Effect,1,FALSE
+10,Area Of Effect (+1),The power affects everything in a sphere the size of a Medium Blast Template.. ,Area Of Effect,1,FALSE
+11,Area Of Effect (+2),For +2 points the power affects everyone in a Medium Blast Template.,Area Of Effect,2,FALSE
+12,Area Of Effect (+2),The power affects everything in a sphere the size of a Large Blast Template. ,Area Of Effect,2,FALSE
+13,Area Of Effect (+3),For +3 points the area of effect is increased to a Large Blast Template.,Area Of Effect,3,FALSE
+14,Armed (+1 Per Zombie),"The dead rise with a rusting weapon common to their setting and environment. Choose one:<br><ul><li>Hand Weapon: Str+d6.</li><li>Ranged Weapon: Range 12/24/48, Damage 2d6.</li></ul>",Armed,1,TRUE
+15,Armor (+1 Per Zombie),"The horrors crawl from their grave wearing 2 points of Armor. This might be old chain mail, rusting plate, rotting bulletproof vests, etc.",Armor,1,TRUE
+16,Audible History (+2),The caster can now hear sounds and conversations as well.,Audible History,2,FALSE
+17,Beast Friend-Size 1 (+1),Control a creature from tiny (-4) to large human size (1) or a small swarm.,Beast Friend-Size 1,1,TRUE
+18,Beast Friend-Size 2 (+2),Control a  size 2 creature or a medium swarm.,Beast Friend-Size 2,2,TRUE
+19,Beast Friend-Size 3 (+3),Control a size 3 creature or a large swarm.,Beast Friend-Size 3,3,TRUE
+20,Beast Friend-Size 4 (+4),Control a size 4 creature.,Beast Friend-Size 4,4,TRUE
+21,Beast Friend-Size 5 (+5),"Control a size 5 creature.<br>* for larger creatures, add sizes together to calculate the points",Beast Friend-Size 5,5,TRUE
+22,Bite/Claw (+1),The ally can bite or claw at Str+d6.,Bite/Claw,1,FALSE
+23,Crippling Injuries (+20),"The power can heal a permanent Crippling Injury (see <strong>Incapacitation</strong>, page 95). This requires an hour of preparation and only one casting is permitted per injury. If it fails, this caster cannot <i>heal</i> that particular injury (but someone else may try). If successful, the subject is Exhausted for 24 hours.",Crippling Injuries,2,FALSE
+24,Damage (+1),The <i>barrier</i> causes 2d4 damage to anyone who contacts it.,Damage,1,FALSE
+25,Damage (+2),The <i>blast</i> causes 3d6 damage (4d6 with a raise).,Damage,2,FALSE
+26,Damage (+2),The <i>bolt</i> causes 3d6 damage (4d6 with a raise).,Damage,2,FALSE
+27,Damage (+2),"The <i>burst</i> causes 3d6 damage, or 4d6 with a raise.",Damage,2,FALSE
+28,Damage (+2),The <i>damage field</i> causes 2d6 damage.,Damage,2,FALSE
+29,Edit (+1),"Instead of wiping the memory, the caster edits it as they see fit.",Edit,1,FALSE
+30,Fast Cast (+2),The caster can wipe a memory as an action.,Fast Cast,2,FALSE
+31,Flight (+2),The ally can fly at Pace 12.,Flight,2,FALSE
+32,Greater Healing (+10),"<i>Greater healing</i> can restore any Wound, including those more than an hour old.",Greater Healing,1,FALSE
+33,Growth/Shrink-Increment 1 (+2),Increase/Decresase size of target by 1,Growth/Shrink-Increment 1,2,TRUE
+34,Hardened (+1),The wall is Hardness 12.,Hardened,1,FALSE
+35,Mind Rider (+1),The caster can communicate and sense through any of the beasts he’s befriended.,Mind Rider,1,FALSE
+36,Mind Rider (+1),"The caster can communicate and sense through one of the undead he’s conjured. If it’s destroyed, he may jump to any of the others currently under his control.",Mind Rider,1,FALSE
+37,Mind Rider (+1),The caster can communicate and sense through the ally.,Mind Rider,1,FALSE
+38,Mobile (+1),"The caster can move the area of effect up to his arcane skill die type each round after casting, or attach it to an inanimate object when first cast.",Mobile,1,FALSE
+39,Mobile (+1),The caster can move the area of effect up to his arcane skill die type each round.,Mobile,1,FALSE
+40,More Armor (+1),Success grants 4 points of Armor (+6 with a raise).,More Armor,1,FALSE
+41,Neutralize Poison Or Disease (+1),"A successful <i>healing</i> roll negates any poison or disease. If the poison or disease has a bonus or penalty associated with it, the modifier applies to the arcane skill roll as well.",Neutralize Poison Or Disease,1,FALSE
+42,Permanent (+0),"The <i>zombie</i> is given unlife until Incapacitated by Wounds. The Power Points used to raise it are &quot;invested&quot; and unavailable until it’s destroyed. The necromancer may terminate his creations’ unlife at any time, regardless of sight, distance, or other factors. His Power Points then begin recharging normally.<br>Permanent zombies remain animated even if their creator is slain!",Permanent,0,FALSE
+43,Power (+1),"For +1 Power Points, <i>dispel</i> can disrupt enchanted devices for one round, or two with a raise. The difficulty to do so is -2 for permanently enchanted items such as found in most swords & sorcery campaigns, or -4 for divine or legendary relics.",Power,1,FALSE
+44,Power (+1),"The caster can <i>burrow</i> through stone, concrete, or similar substances. (Some substances, like plastic, glass, solid lead, etc., might be resistant at the GM’s discretion.)",Power,1,FALSE
+45,Power (+5),The hero can raise a spirit dead up to a decade for +5 Power Points.,Power,5,FALSE
+46,Quickness (+2),<i>Speed</i> only. The character’s total Multi-Action penalty each turn is reduced by 2 (The recipient can do two actions at no penalty or three at -2 each).,Quickness,2,FALSE
+47,Shape Change-Novice (+3),Size -4 to Size -1,Shape Change-Novice,3,FALSE
+48,Shape Change-Seasoned (+5),Size 0,Shape Change-Seasoned,5,FALSE
+49,Shape Change-Veteran (+8),Size +1 to +2,Shape Change-Veteran,8,FALSE
+50,Shape Change-Heroic (+11),Size +3 to +4,Shape Change-Heroic,1,FALSE
+51,Shape Change-Legendary (+15),Size +5 to +10,Shape Change-Legendary,1,FALSE
+52,Shaped (+2),"The <i>barrier</i> forms a circle, square or other basic shape.",Shaped,2,FALSE
+53,Size (+1), The length and height of the <i>barrier</i> doubles.,Size,1,FALSE
+54,Size (+1),The recipient may assume the shape of someone up to two Sizes larger or smaller than themselves.,Size,1,FALSE
+55,Sound (+1),"The power generates sound appropriate to the <i>illusion</i>. Illusionary allies may talk, illusionary crows caw, and so on. It may not mask or mute existing sound, however.",Sound,1,FALSE
+56,Speech (+1),The recipient retains the power of speech (but still cannot activate powers).,Speech,1,FALSE
+57,Strong (+1),<i>Detection</i> rolls to see through the <i>concealment</i> are made at -2.,Strong,1,FALSE
+58,Strong (+1),Strength rolls are made at -2.,Strong,1,FALSE
+59,Strong (+1),The Spirit roll to shake off the effect is made at -2.,Strong,1,FALSE
+60,Strong (+1),The Vigor roll to shake off the effect is made at -2.,Strong,1,FALSE
+61,Strong (+2),Smarts rolls to disbelieve the <i>illusion</i> are made at -2. ,Strong,2,FALSE
+62,Strong (+2),The <i>entangling</i> material is particularly resilient. Rolls to break free are made at -2 and its Hardness increases to 7.,Strong,2,FALSE
+63,Summon Ally-Novice (+2),"<i><strong>Attendant</strong></i><br><strong>Attributes:</strong> Agility d4, Smarts d4, Spirit d4, Strength d4, Vigor d4<br><strong>Skills:</strong> Athletics d4, Fighting d4, Notice d4, Shooting d4, Stealth d6<br><strong>Pace:</strong> 4; <strong>Parry:</strong> 4; <strong>Toughness: </strong>4<br><strong>Special Abilities:</strong><br><ul><li><strong>Claw: </strong>Str+d4.</li><li><strong>Construct:</strong> +2 to recover from being Shaken; ignore 1 point of Wound penalties; doesn’t breathe, immune to poison and disease.</li><li><strong>Fearless:</strong> Immune to fear and Intimidation.</li></ul>",Summon Ally-Novice,2,FALSE
+64,Summon Ally-Seasoned (+4),"<i><strong>Bodyguard</strong></i><br><strong>Attributes: </strong>Agility d6, Smarts d4, Spirit d6, Strength d6, Vigor d6<br><strong>Skills: </strong>Athletics d6, Fighting d6, Intimidation d6, Notice d4, Shooting d4, Stealth d4<br><strong>Pace: </strong>6; <strong>Parry: </strong>5; <strong>Toughness:</strong> 7 (2)<br><strong>Edges: </strong>First Strike<br><strong>Gear: </strong>Melee attack (Str+d6).<br><strong>Special Abilities:</strong><br><ul><li><strong>Armor +2: </strong>Hardened skin. </li><li><strong>Construct: </strong>+2 to recover from being Shaken; ignore 1 point of Wound penalties; doesn’t breathe, immune to poison and disease. </li><li><strong>Fearless:</strong> Immune to fear and Intimidation. </li></ul>",Summon Ally-Seasoned,4,FALSE
+65,Summon Ally-Veteran (+6),"<i><strong>Mirror Self<br></strong></i>The ally is a clone of the caster except: it’s an Extra; it has the same number of current Power Points as the caster <i>after</i> subtracting for this casting; it cannot use the summon ally power; its skills (but not attributes) are one die type less (minimum d4) than the original; it has identical mundane equipment (no magical qualities, disappears when the power expires); has the Construct and Fearless abilities.<br><i>Mirror Self costs +2 power points per Rank above Veteran to a maximum of 10 PPs at Legendary.</i>",Summon Ally-Veteran,6,FALSE
+66,Summon Ally-Heroic (+8),"<i><strong>Sentinel</strong></i><br><strong>Attributes: </strong>Agility d6, Smarts d6, Spirit d8, Strength d12+2, Vigor d10<br><strong>Skills: </strong>Athletics d6, Fighting d10, Intimidation d10, Notice d8<br><strong>Pace: </strong>6; <strong>Parry: </strong>7; <strong>Toughness: </strong>13 (4)<br><strong>Edges: </strong>Arcane Resistance, Sweep (Imp).<br><strong>Gear: </strong>Melee attack (Str+d8).<br><strong>Special Abilities:<br><ul><li></strong>• <strong>Armor +4: </strong>Stone skin.</li><li><strong>Construct: </strong>+2 to recover from being Shaken; ignore 1 point of Wound penalties; doesn’t breathe, immune to poison and disease. </li><li><strong>Fearless: </strong>Immune to fear and Intimidation. </li><li><strong>Size 2: </strong>Sentinels are 8' tall and very dense. </li></ul>",Summon Ally-Heroic,8,FALSE
+67,Targeted (+0),"Instead of casting <i>silence</i> in an area of effect, the caster may instead target individuals in Range for 1 Power Point each. Unwilling targets resist with Spirit (at -2 if the caster gets a raise).",Targeted,0,FALSE
+68,Teleport Foe (+2),"Foes may be targeted by a <strong>Touch </strong>attack (page 108). This is an action, so the casting must be the second part of a Multi-Action if the attack is successful. The foe resists the casting with an opposed Spirit roll against the arcane skill total and is sent up to 12&quot; away with success and 24&quot; with a raise. Foes may not be teleported into solid objects.",Teleport Foe,2,FALSE
+69,Toughness (+2),<i>Protection</i> provides Toughness instead of Armor and is not affected by AP (magical or otherwise). This means it stacks with natural or worn armor.,Toughness,2,FALSE
