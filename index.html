@@ -14,7 +14,8 @@
 
 	<!-- reset the CSS to get rid of browser overwrites -->
 	<link rel="stylesheet" href="./resources/css/reset.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/25675738d4.js" crossorigin="anonymous"></script>
 	<!-- Main CSS file -->
 	<link rel="stylesheet" href="./resources/css/style.css">
 
@@ -40,21 +41,28 @@
 	  <a href="#edges">Edges</a>
 	  <a href="#powers">Powers</a>
 	  <a href="javascript:void(0);" class="icon" onclick="topNavFunc()">
-	    <i class="fa fa-bars"></i>
+	    <i class="fas fa-bars"></i>
 	  </a>
 	</div>
 	<main>
-		<section id="hinderances">
+		<section id="hinderances" class="">
 			<h1>Hinderances</h1>
 		</section>
-		<section id="traits">
+		<section id="traits" class="">
 			<h1>Traits</h1>
 		</section>
-		<section id="edges">
+		<section id="edges" class="">
 			<h1>Edges</h1>
 		</section>
-		<section id="powers">
+		<section id="powers" class="active">
 			<h1>Powers</h1>
+			<article class="">
+				<div class="">
+					<label for="">Search for power</label>
+					<i class="fas fa-search"></i>
+				</div>
+
+			</article>
 		</section>
 	</main>
 
@@ -62,7 +70,6 @@
 <!-------------------------------- Javascript --------------------------------->
 	<!-- add scripts here -->
 	<!-- jQuery -->
-	<!-- Bootstrap -->
 	<!-- site JS scripts -->
 	<script type="text/javascript" src="./resources/js/main.js"></script>
 	<!-- <script type="text/javascript" src="./resources/js/tests.js"></script> -->

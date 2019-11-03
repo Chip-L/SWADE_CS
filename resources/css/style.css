@@ -1,5 +1,9 @@
 /****************************** Universal Styles ******************************/
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: Helvetica;
   font-size: 16px;
@@ -48,6 +52,7 @@ header {
 */
   text-align: center;
   height: 5em;
+  background-color: #f3f3f3;
 
   display: flex;
   flex-flow: row nowrap;
@@ -143,4 +148,13 @@ h2 {
     display: block;
     text-align: left;
   }
+}
+
+/********************************** Section  **********************************/
+section{
+  border: solid 2px black;
+  margin: .125em;
+  padding: .5em;
+  text-align: center;
+  background-color: #eee8aa;
 }
