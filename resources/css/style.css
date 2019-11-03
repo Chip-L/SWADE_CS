@@ -13,9 +13,14 @@ html {
   overflow: hidden;
 }
 
-.image-container img {
+.image-container .fit-horizontally {
   height: auto;
   width: 100%;
+}
+
+.image-container .fit-vertically {
+  height: 100%;
+  width: auto;
 }
 
 .video-container {
@@ -26,14 +31,49 @@ html {
   width: inherit;
 }
 
-@media only screen and (min-width: 575px) {
+@media only screen and (max-width: 600px) {
   .mobile-hide {
-    display: inherit;
+    display: none;
   }
 
   .mobile-show {
-    display: none;
+    display: inherit;
   }
+}
+
+/*********************************** Header ***********************************/
+header {
+/*  position: fixed;
+  z-index: 10;
+*/
+  text-align: center;
+  height: 5em;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header img {
+  height: 4em;
+  width: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 /********************** Top Navigation (From W3 Schools) **********************/
@@ -41,6 +81,8 @@ html {
 .topnav {
   background-color: #333;
   overflow: hidden;
+/*  margin-top: 5em;
+*/
 }
 
 /* Style the links inside the navigation bar */
