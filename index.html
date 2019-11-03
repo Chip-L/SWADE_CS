@@ -11,11 +11,21 @@
 	<meta name="author" content="Chip Long">
 
 	<!-- insert Favicon here -- https://realfavicongenerator.net/ -->
+	<link rel="apple-touch-icon" sizes="180x180" href="resources/images/FavIcon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="resources/images/FavIcon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="resources/images/FavIcon/favicon-16x16.png">
+	<link rel="manifest" href="resources/images/FavIcon/site.webmanifest">
+	<link rel="mask-icon" href="resources/images/FavIcon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="resources/images/FavIcon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="resources/images/FavIcon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 
 	<!-- reset the CSS to get rid of browser overwrites -->
 	<link rel="stylesheet" href="./resources/css/reset.css">
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/25675738d4.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Bad+Script|Bilbo+Swash+Caps|Calligraffitti|Charm|Condiment|Courgette|Macondo+Swash+Caps|Marck+Script|Niconne|Satisfy|Tangerine&display=swap" rel="stylesheet">
 	<!-- Main CSS file -->
 	<link rel="stylesheet" href="./resources/css/style.css">
 
@@ -31,7 +41,7 @@
 			<img src="resources\images\SWADE_Logo.png" alt="Savage Worlds Logo" id="logo">
 			<div class="SW-logo">
 				<h1>Savage Worlds</h1>
-				<h2 class="mobile-hide">Adventure Edition</h2>
+				<h2 class="web-show">Adventure Edition</h2>
 			</div>
 		</div>
 	</header>
@@ -59,11 +69,14 @@
 			<article class="">
 				<div class="">
 					<label for="">Search for power</label>
+					<datalist id="powerlist">
+					</datalist>
+					<input type="text" list="powerlist" placeholder="Search">
 					<i class="fas fa-search"></i>
 				</div>
 
 			</article>
-		</section>
+		</section>		
 	</main>
 
 

@@ -35,12 +35,16 @@ html {
   width: inherit;
 }
 
-@media only screen and (max-width: 600px) {
-  .mobile-hide {
-    display: none;
-  }
+.hide {
+  display: none;
+}
 
-  .mobile-show {
+.web-show {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .web-show {
     display: inherit;
   }
 }
@@ -66,11 +70,14 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
+
+  font-family: 'Condiment', cursive;
 }
 
 header img {
   height: 4em;
   width: auto;
+  margin-right: 1em;
 }
 
 h1 {
