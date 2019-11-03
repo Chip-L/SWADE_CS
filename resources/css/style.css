@@ -38,7 +38,7 @@ html {
 .hide {
   display: none;
 }
-
+/*
 .web-show {
   display: none;
 }
@@ -48,7 +48,7 @@ html {
     display: inherit;
   }
 }
-
+*/
 /*********************************** Header ***********************************/
 header {
 /*  position: fixed;
@@ -80,12 +80,25 @@ header img {
   margin-right: 1em;
 }
 
-h1 {
+header h1 {
   font-size: 2.5em;
 }
 
-h2 {
-  font-size: 1.5em;
+header h2 {
+  display: none;
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  header h2 {
+    display: inherit;
+    padding-top: .5em;
+    font-size: 1em;
+  }
 }
 
 /********************** Top Navigation (From W3 Schools) **********************/

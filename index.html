@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="./resources/css/reset.css">
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/25675738d4.js" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Bad+Script|Bilbo+Swash+Caps|Calligraffitti|Charm|Condiment|Courgette|Macondo+Swash+Caps|Marck+Script|Niconne|Satisfy|Tangerine&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Condiment&display=swap" rel="stylesheet">
 	<!-- Main CSS file -->
 	<link rel="stylesheet" href="./resources/css/style.css">
 
@@ -46,10 +46,10 @@
 		</div>
 	</header>
 	<div class="topnav" id="myTopnav" role="navigation">
-	  <a href="#hinderances" class="active">Hinderances</a>
-	  <a href="#traits">Traits</a>
-	  <a href="#edges">Edges</a>
-	  <a href="#powers">Powers</a>
+	  <a id="menu-hinderances" href="#hinderances" onclick="menuClick('hinderances')" class="active">Hinderances</a>
+	  <a id="menu-traits" href="#traits" onclick="menuClick('traits')">Traits</a>
+	  <a id="menu-edges" href="#edges" onclick="menuClick('edges')">Edges</a>
+	  <a id="menu-powers" href="#powers" onclick="menuClick('powers')">Powers</a>
 	  <a href="javascript:void(0);" class="icon" onclick="topNavFunc()">
 	    <i class="fas fa-bars"></i>
 	  </a>
@@ -76,7 +76,7 @@
 				</div>
 
 			</article>
-		</section>		
+		</section>
 	</main>
 
 
