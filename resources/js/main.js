@@ -34,6 +34,3 @@ function topNavFunc() {
     x.className = "topnav";
   }
 }
-
-
-//menuHinderances.addEventListener("click", menuClick('hinderances'));
